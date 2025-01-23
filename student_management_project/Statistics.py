@@ -1,5 +1,7 @@
+import searchtool
 
-marks= = 
+
+marks= 0
 
 def averages(marks):
     for number in marks:
@@ -7,7 +9,9 @@ def averages(marks):
         count =+ 1
     
     answer = added / count
-    print{f"The average of the students Marks is {answer}"}
+    print(f"The average of the students Marks is {answer}")
 
 
-#upp Boiii
+alanfunction = searchtool.main()
+
+print(alanfunction)
