@@ -8,4 +8,6 @@ def averages(marks):
     
     answer = added / count
     print{f"The average of the students Marks is {answer}"}
-    
+
+
+#upp Boiii
