@@ -12,6 +12,4 @@ def averages(marks):
     print(f"The average of the students Marks is {answer}")
 
 
-alanfunction = searchtool.main()
-
-print(alanfunction)
+#upp Boiii
