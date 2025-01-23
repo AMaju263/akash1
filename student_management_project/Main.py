@@ -1,4 +1,5 @@
 import dataManager
+import searchtool
 print("\nStudent Exam Score Analysis")
 print("1. Add student and score")
 print("2. Search for student score")
@@ -10,3 +11,4 @@ choice = input("Choose an option: ")
 
 if choice == 1:
     dataManager.addStudentData()
+
