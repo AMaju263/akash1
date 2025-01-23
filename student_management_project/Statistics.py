@@ -10,4 +10,4 @@ def averages(marks):
     print{f"The average of the students Marks is {answer}"}
 
 
-#upp Boiii
+#supp Boiii
