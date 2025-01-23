@@ -1,4 +1,6 @@
 import dataManager
+import searchtool
+import statistics
 print("\nStudent Exam Score Analysis")
 print("1. Add student and score")
 print("2. Search for student score")
@@ -8,5 +10,14 @@ print("5. Exit")
 
 choice = input("Choose an option: ")
 
-if choice == 1:
-    dataManager.addStudentData()
+while choice != 5:
+    if choice == 1:
+        dataManager.addStudentData()
+    
+    elif choice == 2:
+        searchtool.search()
+    elif choice == 3:
+        statistics.average
+    elif choice == 4:
+        searchtool.displayScores
+    

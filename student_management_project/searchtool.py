@@ -4,6 +4,8 @@ def calculate_average(scores):
         return sum(scores) / len(scores)
     else:
         return 0
+    
+
 
 # Main program to input data and calculate the average score
 def main():
@@ -62,3 +64,22 @@ def main():
 # Run the program
 if __name__ == "__main__":
     main()
+
+student_scores = {}  # Dictionary to store student names and their scores in the subject
+
+def search():
+    name = input("Enter student's name to search: ")
+    if name in student_scores:
+            print(f"{name}'s score: {student_scores[name]}")
+    else:
+            print(f"No record found for {name}.")
+
+def displayScores():
+    
+            # Display all students and their scores
+            if student_scores:
+                print("\nAll students and their scores in the exam:")
+                for name, score in student_scores.items():
+                    print(f"{name}: {score}")
+            else:
+                print("No students' data available.")
